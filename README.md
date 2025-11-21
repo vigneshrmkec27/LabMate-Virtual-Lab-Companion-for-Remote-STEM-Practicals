@@ -1,18 +1,3 @@
-Got it.
-Below is a **perfectly clean, professionally formatted, fully aligned `README.md`**.
-Just **copy-paste this entire block** into your GitHub `README.md`.
-
-Everything is structured exactly the way Google/Kaggle judges prefer.
-
----
-
-# ✅ **FINAL POLISHED README.md (Perfect Alignment + Clean Structure)**
-
-**Copy-paste everything below *as is***
-
----
-
-```markdown
 # ⭐ LabMate — Virtual Lab Companion for Remote STEM Practicals  
 ### **Kaggle 5-Day Agents Intensive — Capstone Project**  
 **Track:** Agents for Good (Education)
@@ -52,41 +37,39 @@ This opens lab access for students who lack physical lab facilities.
 
 ## 🗂️ Project Structure
 
-```
-
 labmate/
-├── README.md                     ← You are here
-├── writeup.md                    ← Kaggle submission content
-├── demo.py                       ← Full end-to-end demo runner
-├── video_script.txt              ← For 3-min demo video
+├── README.md ← You are here
+├── writeup.md ← Kaggle submission content
+├── demo.py ← Full end-to-end demo runner
+├── video_script.txt ← For 3-min demo video
 ├── evaluation_plan.md
 ├── submission_checklist.md
 │
 ├── agents/
-│   ├── coordinator.py
-│   ├── ingest_agent.py
-│   ├── experiment_generator_agent.py
-│   ├── safety_agent.py
-│   ├── simulator_agent.py
-│   ├── grader_agent.py
-│   └── chat_agent.py
+│ ├── coordinator.py
+│ ├── ingest_agent.py
+│ ├── experiment_generator_agent.py
+│ ├── safety_agent.py
+│ ├── simulator_agent.py
+│ ├── grader_agent.py
+│ └── chat_agent.py
 │
 ├── tools/
-│   ├── pdf_tool.py
-│   ├── codegen_tool.py
-│   └── simulator_tool.py
+│ ├── pdf_tool.py
+│ ├── codegen_tool.py
+│ └── simulator_tool.py
 │
 ├── sample_data/
-│   └── rc_lab_manual.txt         ← Example manual for testing
+│ └── rc_lab_manual.txt ← Example manual for testing
 │
-├── outputs/                      ← Generated plots + reports (auto-created)
-│   └── rc_charge.png (created after running demo)
+├── outputs/ ← Generated plots + reports (auto-created)
+│ └── rc_charge.png (created after running demo)
 │
 └── docs/
 ├── architecture.png
 └── storyboard.png
 
-````
+
 
 ---
 
@@ -95,116 +78,52 @@ labmate/
 ### **1. Install Requirements**
 ```bash
 pip install numpy matplotlib
-````
 
-### **2. Run Demo**
-
-```bash
+2. Run Demo
 python demo.py
-```
 
-### **3. View Outputs**
+3. View Outputs
 
 After running, check:
 
-* `outputs/rc_charge.png` → RC circuit simulation plot
-* Terminal output → safety results + grading + memory snapshot
+outputs/rc_charge.png → RC circuit simulation plot
 
----
+Terminal output → safety results + grading + memory snapshot
 
-## 🧪 What the Demo Produces
+🧪 What the Demo Produces
 
 The demo simulates an RC circuit lab and generates:
 
-* A clean experiment specification
-* Auto-generated simulation code
-* Safety warnings (if any)
-* A capacitor charging plot (saved in outputs folder)
-* Auto-graded performance with feedback
-* Student learning memory updated
+A clean experiment specification
 
----
+Auto-generated simulation code
 
-## 🎯 Why LabMate Matters
+Safety warnings (if any)
 
-* Brings **STEM labs** to students who cannot attend physical laboratories
-* Automates experiment explanation, simulation & grading
-* Helps teachers reduce grading time
-* Encourages equitable access to engineering education
+A capacitor charging plot (saved in outputs folder)
 
----
+Auto-graded performance with feedback
 
-## 🎓 Pedagogical Value
+Student learning memory updated
+
+🎯 Why LabMate Matters
+
+Brings STEM labs to students who cannot attend physical laboratories
+
+Automates experiment explanation, simulation & grading
+
+Helps teachers reduce grading time
+
+Encourages equitable access to engineering education
+
+🎓 Pedagogical Value
 
 LabMate enables:
 
-* Remote learners to perform hands-on experiments
-* Self-paced practice with immediate feedback
-* Better exam preparation through auto-grading
-* Teacher analytics (future extension)
+Remote learners to perform hands-on experiments
 
----
+Self-paced practice with immediate feedback
 
-## 🎥 Demo Video
+Better exam preparation through auto-grading
 
-(Video not uploaded yet — will update with YouTube link.)
-
----
-
-## 📊 Evaluation Overview
-
-(Full details in `evaluation_plan.md`)
-
-* Simulation accuracy check
-* Error-based grading rubric
-* Human evaluation from simulated TAs
-* Observability metrics (execution time, safety issues, etc.)
-
----
-
-## 📌 Kaggle Submission Instructions
-
-You must submit:
-
-1. Your **Kaggle writeup**
-   → Paste content from **writeup.md**
-
-2. Your **GitHub repo link**
-   → Example: `https://github.com/YOUR_USERNAME/labmate`
-
-3. **Thumbnail image**
-   → Use `docs/architecture.png` or a custom banner
-
-4. (Optional bonus) **YouTube demo video link**
-   → Based on `video_script.txt`
-
----
-
-## 📝 License
-
-MIT License
-
----
-
-## 👨‍💻 Author
-
-**Vignesh** — Kaggle Agents Intensive Participant (2025)
-
-```
-
----
-
-# 🎉 Your README is DONE!  
-This README is **fully aligned**, clean, structured, and matches **Google/Kaggle professional standards**.
-
----
-
-# If you want, I can also:
-✅ Create a **beautiful Kaggle thumbnail image**  
-✅ Generate a **GitHub banner**  
-✅ Convert the project into a **Kaggle Notebook**  
-✅ Create a **better architecture diagram** (colored, high-quality)  
-✅ Polish your **writeup.md** for maximum score  
-
-Just tell me **“Create thumbnail”**, **“Make Kaggle notebook”**, etc.
-```
+Teacher analytics (future extension)
